@@ -1,0 +1,452 @@
+body{
+	background-color:#f9f8f7;
+	margin:0 auto;
+	width:1000px;
+	height:1945px;
+}
+
+.wrap{
+	width:809px;
+	height:1945px;
+	margin:0 auto;
+}
+
+/*header начало стиля*/
+
+.header{
+	height:196px;
+	width:809px;
+	position:relative;
+	margin:0 auto;
+}
+
+#header_img{
+	float: right;
+	margin-top:30px;
+	width:472px;
+	height:54px;
+}
+
+header li{
+	display:inline;
+	margin-left:4px;
+	
+}
+
+header li a{
+	color: rgb(55, 38, 54);
+	font-size: 12px;
+	font-family: "Arial";
+  	text-decoration: underline;
+	line-height: 1.6;
+	text-align: left;
+	padding:20px;
+	margin-left:2px;
+ }
+ 
+header{
+	overflow:hidden;
+}
+
+header ul{ 
+	margin-top:150px;
+	padding-bottom:10px;
+	border-bottom:1px solid black;
+	margin-left:-27px;
+}
+
+.Header_top{
+	float: left;
+	margin-top:50px;
+}
+
+.Header_top p{
+  font-size: 14px;
+  font-family: "Times New Roman";
+  color: rgb(55, 38, 54);
+  font-style: italic;
+  line-height: 1.2;
+  text-align: left;
+ 
+}
+.Header_top h1, .content h1{ /*одинаковое оформление заголовков*/
+	font-size: 26px;
+	font-family: "Times New Roman";
+	text-decoration: underline;
+	padding-bottom:5px;
+	color: rgb(55, 38, 54);
+	line-height: 1.2;
+	text-align: left;
+}
+
+/*header конец стиля*/
+
+
+.content{
+	width:530px;
+	float:left;
+	text-align:justify;
+	margin-top:40px;
+}
+
+.text{
+	font-size: 12px;
+	font-family: "Arial";
+	color: rgb(55, 38, 54);
+	line-height: 1.2;
+	margin-top:35px ;
+	text-indent: 35px;
+}
+#textbook{
+	margin-top:20px;
+	margin-bottom:15px;
+}
+
+.publication_author, .publication_time{
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(144, 141, 144);
+  line-height: 1.2;
+  text-align: left;
+  display:inline;
+ 
+}
+#CSR{
+	text-decoration:underline;
+}
+
+.publication_time{
+	float:right;
+}
+.publication_info{
+	border-bottom: 1px dashed ;
+	border-color:#372636;
+	padding-bottom:10px;
+}
+
+.rating_of_article{
+	border-bottom: 1px dashed ;
+	border-color:#372636;
+	padding-bottom:30px;
+}
+
+.rating_of_article p{
+	font-size: 16px;
+	font-family: "Arial";
+	color: rgb(144, 141, 144);
+	line-height: 1.2;
+	text-align: left;
+	display:inline;
+	float:right;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+.similar_news {
+	margin:15px 0;
+	border-bottom: 1px dashed ;
+	padding-bottom:30px;
+	
+}
+
+.similar_news a{
+	
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(55, 38, 54);
+  text-decoration: underline;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.similar_news h2 {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(55, 38, 54);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.tags{
+	font-size: 12px;
+	font-family: "Arial";
+	color: rgb(145, 140, 145);
+	line-height: 1.2;
+	text-align: left;
+	margin:0 -2px 5px;
+	text-decoration:underline;
+}
+
+#Print_page{
+	float: right;
+	text-decoration:underline;
+}
+
+
+/*aside начало стиля*/
+.aside{
+	float:right;
+	width:236px;
+	margin-top:40px;
+	margin-left:43px;
+	
+}
+
+.Online_poll p{
+	font-size: 12px;
+	font-family: "Arial";
+	color: rgb(55, 38, 54);
+	line-height: 1.2;
+	text-align: left;
+	padding: 5px 15px;
+}
+
+.Online_poll h3, .teg_cloud h3 .categories h3 .Most_popular h3 .Last_news h3 .Searching_box h3{
+	font-size: 12px;
+	font-family: "Arial";
+	color: rgb(55, 38, 54);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: left;
+	background-color:#f0eee8;
+	padding: 5px 10px;
+	margin: 5px ;
+	border: 1px solid black;
+}
+
+.Online_poll label{
+	font-size: 11px;
+	font-family: "Arial";
+	color: rgb(55, 38, 54);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: left;
+	
+}
+.Online_poll li{
+	list-style-type: none;
+	margin:5px 2px;
+}
+	
+#Button_left, #Button_right{
+	margin-top:15px;
+	margin-left:5px;
+} 
+
+
+.categories, .teg_cloud, .Most_popular, .Last_news, .searching_box, .Most_popular_archive{
+	margin-top:45px;
+}
+
+.teg_cloud p{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(55, 38, 54);
+  line-height: 1.2;
+  text-align: justify;
+  word-spacing: 10px;
+  margin-left:-10px;
+}
+.categories a, .list_left a{
+	font-size: 12px;
+	font-family: "Arial";
+	color: rgb(55, 38, 54);
+	font-weight: bold;
+	line-height: 2;
+	text-align: left;
+	text-decoration: underline;
+	margin-left:5px;
+}
+
+.Last_news a{
+	font-size: 12px;
+  font-family: "Arial";
+  color: rgb(55, 38, 54);
+  line-height: 1.2;
+  text-align: left;
+  margin-left:5px;
+}
+
+#search{
+	width:153px;
+	margin-left:5px;
+}
+
+#searching_button{
+	width:70px;
+	height:20px;
+}
+.searching_box a{
+		font-size: 12px;
+  font-family: "Arial";
+  color: rgb(55, 38, 54);
+  line-height: 1.2;
+  text-align: left;
+  margin-left:-9px;
+}
+	
+
+.Most_popular a{
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(55, 38, 54);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  margin-left:5px;
+ 
+}
+
+.list_left{
+	position:relative;
+	margin-left: 5px;
+}
+.list_right{
+	position:absolute;
+	margin:-180px 130px;
+	width:100px;
+	height:145px;
+}
+/*aside конец стиля*/
+
+/*комментарии начало стиля*/
+.comments h2 {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb(55, 38, 54);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.comment_panel_1, .comment_panel_2, .comment_panel_3 { 
+	position:relative;
+	background-color:#f0eee8;
+	width:475px;
+	height:50px;
+	float:right;
+}
+.comment_panel_1 li,.comment_panel_2 li,.comment_panel_3 li{ 
+	display:inline;
+	font-size: 11px;
+	font-family: "Arial";
+	color: rgb(55, 38, 54);
+	line-height: 1.2;
+	text-align: left;
+	margin-left:10px;
+}
+
+.comment_panel_1 h4, .comment_panel_2 h4, .comment_panel_3 h4 { 
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(55, 38, 54);
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 1.2;
+  text-align: left;
+  margin: 5px 0 0 10px;
+}
+.comment_panel_1 img, .comment_panel_2 img, .comment_panel_3 img{ 
+	width:50px;
+	height:40px;
+	padding-left:0px;
+	float: left;
+}
+
+.comment_1 p, .comment_2 p, .comment_3 p{ 
+	font-size: 12px;
+	font-family: "Arial";
+	color: rgb(55, 38, 54);
+	line-height: 1.2;
+	text-align: left;
+	margin: 13px 0 0 3px;
+}
+
+
+.comment_1 li a, .comment_2 li a, .comment_3 li a { 
+	display:inline;
+	float:right;
+	margin-top:22px;
+	padding-left:25px;
+	font-size: 11px;
+	font-family: "Arial";
+	color: rgb(55, 38, 54);
+	text-decoration: underline;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.comment li a:after{          
+	content:"|";
+	margin-left:13px;
+	margin-right:-9px;
+	text-decoration: none;
+}
+
+.comment_1 li a:last-child:after,
+.comment_2 li a:last-child:after,
+.comment_3 li a:last-child:after{  /*почему не работает??? должно убирать "|" у последнего li*/
+	content:none;              
+}
+
+.comment_1 {
+	margin-top:20px; /*почему не работает??? должно убирать "|" у последнего li*/
+}
+
+.comment_2 {
+	margin-top:60px;
+}
+
+.comment_3 {
+	margin-top:80px;
+}
+
+.new_comment h2{
+	font-size: 18px;
+	font-family: "Arial";
+	color: rgb(55, 38, 54);
+	line-height: 1.2;
+	text-align: left;
+	margin-top:60px;
+}
+
+.new_comment li{
+	margin-top:15px;
+}
+
+.new_comment textarea{
+	width:100%;
+	height:110px;
+}
+	
+#textarea_button{
+	padding:0 17px;
+}
+ 
+/*комментарии конец стиля*/ 
+
+footer{
+	width:809px;
+	background-color:orange;
+	position:relative;
+	margin-top:-250px;
+	margin-left:95px;
+} 
+ 
+footer p{
+  position:absolute;
+  width:809px;
+  height:30px;
+  margin:0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding:14px 0 2px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(55, 38, 54);
+  line-height: 1.6;
+  text-align: left;
+}
+
+
+	
